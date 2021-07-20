@@ -15,6 +15,7 @@
 		370DA9BB26A6BCF500D89A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370DA9B926A6BCF500D89A49 /* LaunchScreen.storyboard */; };
 		370DA9C626A6BCF500D89A49 /* CameraShareAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DA9C526A6BCF500D89A49 /* CameraShareAppTests.swift */; };
 		370DA9D126A6BCF500D89A49 /* CameraShareAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DA9D026A6BCF500D89A49 /* CameraShareAppUITests.swift */; };
+		370DA9DF26A6BFA900D89A49 /* CheckPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DA9DE26A6BFA900D89A49 /* CheckPermission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		370DA9CC26A6BCF500D89A49 /* CameraShareAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraShareAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		370DA9D026A6BCF500D89A49 /* CameraShareAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraShareAppUITests.swift; sourceTree = "<group>"; };
 		370DA9D226A6BCF500D89A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370DA9DE26A6BFA900D89A49 /* CheckPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPermission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				370DA9B726A6BCF500D89A49 /* Assets.xcassets */,
 				370DA9B926A6BCF500D89A49 /* LaunchScreen.storyboard */,
 				370DA9BC26A6BCF500D89A49 /* Info.plist */,
+				370DA9DE26A6BFA900D89A49 /* CheckPermission.swift */,
 			);
 			path = CameraShareApp;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				370DA9B326A6BCF200D89A49 /* ViewController.swift in Sources */,
 				370DA9AF26A6BCF200D89A49 /* AppDelegate.swift in Sources */,
 				370DA9B126A6BCF200D89A49 /* SceneDelegate.swift in Sources */,
+				370DA9DF26A6BFA900D89A49 /* CheckPermission.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.shotaroooe.CameraShareApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +469,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.shotaroooe.CameraShareApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
