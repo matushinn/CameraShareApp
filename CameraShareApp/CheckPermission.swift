@@ -10,6 +10,10 @@ import Photos
 
 
 //カメラを使っていいのかの許可を作るクラス
+/*
+ チームで開発する際には必要になる。
+ 他のクラスでも参照することを考慮する。
+ */
 class CheckPermission {
     func checkCamera(){
         
